@@ -12,7 +12,7 @@ STORED AS INPUTFORMAT
 OUTPUTFORMAT
   'org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat'
 LOCATION
-  's3://stedi-data-data-lake-housey/accelerometer/landing/'
+  's3://stedi-data-lake-housey/accelerometer/landing/'
 TBLPROPERTIES (
   'classification'='json'
 );
